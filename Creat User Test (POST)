@@ -1,6 +1,6 @@
 var client = new RestClient("https://reqres.in/api/users/766");
-var request = new RestRequest(Method.GET);
-request.AddHeader("postman-token", "41988528-fb7a-5000-fd0d-ad47d4c960dd");
+var request = new RestRequest(Method.POST);
+request.AddHeader("postman-token", "d2914830-be2b-e005-31ab-f9578e1aa381");
 request.AddHeader("cache-control", "no-cache");
 request.AddHeader("content-type", "application/json");
 request.AddParameter("application/json", "{\r\n    \"name\": \"morpheus\",\r\n    \"job\": \"leader\"\r\n}", ParameterType.RequestBody);
