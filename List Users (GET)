@@ -1,0 +1,5 @@
+var client = new RestClient("https://reqres.in/api/users?page=2");
+var request = new RestRequest(Method.GET);
+request.AddHeader("postman-token", "98eff0b9-1eae-c3a9-7262-0c1737eb1465");
+request.AddHeader("cache-control", "no-cache");
+IRestResponse response = client.Execute(request);
